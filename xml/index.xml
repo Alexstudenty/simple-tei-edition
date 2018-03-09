@@ -17,7 +17,7 @@
       </fileDesc>
   </teiHeader>
   <text>
-      <body>
+      <body> This is a new addition.
          <p>Some text here.</p>
       </body>
   </text>
