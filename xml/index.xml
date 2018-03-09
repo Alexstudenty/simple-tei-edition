@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="mystyles.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title></title>
          </titleStmt>
-         <publicationStmt>
-            <p>Publication information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><bibl></bibl></sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-      <body> This is a new addition.
-         <p>Some text here.</p>
+   </teiHeader>
+   <text>
+      <body>
+         <head>ARGUMENTUM</head>
+         <p> Post Leutricas calamitates Thebani impetum in Lacedaemona fecerunt, <lb/>
+            eamque saepenumero grauiter afflixerunt, adeo ut feminae Lacedaemoniorum  <lb/>
+            suis haud raro fugientibus exprobrandi causa occurerent, dicentes se  <lb/>
+            eos rursum in uteros suos recepturas esse. Qui his opprobriis pudefacti, <lb/>
+            reuertebantur Mantineaeque victoria ex hostibus potiti sunt: quamuis  <lb/>
+            Athemensium equites ex Thebanorum parte fortiter pugnabant. Post hanc  <lb/>
+            victoriam, Laccedemonia ad Thebanos miserunt ut pacem cum illis inirent.  <lb/>
+            Quibus Thebani ea lege polliciti sunt, modo Messenam sibi rursus  <lb/>
+            incolendam traderent, eamque sui iuris esse permitterent. Atque quum  <lb/>
+            nonnulli Lacedaemoniis persuaderent, ut ciuitatem illam Thebanis darent  <lb/>
+            Archidamus solus eorum sententiae constantissime aduersabatur:  <lb/>
+            docens ciuitatem Thebanis non tradendam esse. Huius Archidami  <lb/>
+            genus ad hunc modum deducitur. Archidamus maior filius fuit  <lb/>
+            Leuxidami. Agis uero Archidami. Ageselaus Agidis atque ex  <lb/>
+            Agesilao iunior iste Archidamus procreatus fuit. Quidam autem  <lb/>
+            asserunt Archidamum Athenas misisse, ut hanc orationem ab  <lb/>
+            Isocrate disceret. Alij Isocratis fuisse exercitationem affirmant.  <lb/>
+            Sed utcumque erat res, multae uariaeque rationes adferuntur quae  <lb/>
+            docent Messenam nullo modo Thebanis tradendam esse. </p>
       </body>
   </text>
 </TEI>
