@@ -1,0 +1,15 @@
+head {
+    white-space: pre;
+    text-align: center;
+   
+    color: black;
+    line-height: 100px;
+}
+body {
+    white-space: pre-line;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display:block;
+    line-height: 30px;
+}
